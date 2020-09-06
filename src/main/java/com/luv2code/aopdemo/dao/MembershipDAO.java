@@ -10,5 +10,9 @@ public class MembershipDAO {
 		
 		return true;
 	}
+	
+	public void goToSleep(){
+		System.out.println(getClass()+ ": Good night!!, going to sleep cya!");
+	}
 
 }
